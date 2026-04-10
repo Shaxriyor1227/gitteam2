@@ -1,0 +1,45 @@
+.trainers{
+width: 100%;
+height: auto;
+  background-color: black;
+  color: white;
+}
+.trainers1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+
+}
+
+.trainers2{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #222222;
+    color: #fff;
+
+}
+
+
+.trainers2 h3{
+    padding-top: 20px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
