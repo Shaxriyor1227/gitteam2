@@ -14,6 +14,7 @@ header{
 header h1 {
     margin: 0;
     font-size: 28px;
+    cursor: pointer;
 }
 
 nav ul{
@@ -27,6 +28,7 @@ nav ul{
 
 nav ul li:hover {
     color: rgb(245, 206, 154);
+    cursor: pointer;
  
 }
 
