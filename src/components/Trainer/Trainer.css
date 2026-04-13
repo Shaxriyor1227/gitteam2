@@ -1,0 +1,88 @@
+.trainer {
+  width: 100%;
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+  font-family: sans-serif;
+  padding: 0 150px;
+}
+
+.trainer h1 {
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+/* GRID */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.card {
+  background: #1c1c1c;
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.card ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.card button {
+  background: #e6ff00;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: #c6db00;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .trainer h1 {
+    font-size: 30px;
+  }
+}
